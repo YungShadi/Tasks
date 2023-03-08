@@ -21,3 +21,4 @@ var longestCommonPrefix = function(strs) {
     }
     return result;
 }
+console.log(longestCommonPrefix([`caekich`, `catchup`, `caks`,`cas`]));
