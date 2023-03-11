@@ -12,14 +12,6 @@ export function romanToArabic(s) {
         "XL": 40,
         "XC": 90
     };
-if ( !s.includes(`I`) || !s.includes(`V`) || !s.includes(`X`)) {
-    try {
-        throw romanAndArabicError(`qwdjhqwidjas`)
-    } catch(e) {
-        console.log(e);
-        return ` `;
-    }
-}
     let count = 0;
 
     for ( let i = 0; i < s.length; i++) {
