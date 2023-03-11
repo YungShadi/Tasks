@@ -1,9 +1,6 @@
-function convertToRoman(number) {
+export function arabicToRoman(number) {
   let roman = {
-    "M": 1000,
-    "CM": 900,
-    "D": 500,
-    "CD": 400,
+  
     "C": 100,
     "XC": 90,
     "L": 50,
@@ -24,4 +21,3 @@ function convertToRoman(number) {
 
   return result;
 }
-console.log(convertToRoman(223));

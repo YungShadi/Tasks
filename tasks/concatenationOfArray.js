@@ -8,6 +8,6 @@ let getConcatenation = function(nums) {
     }
     return ans
 };
-console.log(getConcatenation([1,4,8,8]));
+console.log(getConcatenation([1,2,3,4]));
 
 
