@@ -7,4 +7,4 @@ function bandNameGenerator (str) {
     return `The ${str.charAt(0).toUpperCase()}${str.slice(1)}`
  }
 }
-console.log(bandNameGenerator(`Knife`))
+console.log(bandNameGenerator(`knifk`))

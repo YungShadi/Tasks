@@ -8,5 +8,5 @@ function swap (string) {
             result += string[i]
         }
     }return result
-}
+} 
 console.log(swap(`Hello World`))

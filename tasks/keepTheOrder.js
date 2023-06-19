@@ -5,7 +5,7 @@ function keepOrder(ary, val) {
         } else if ((i === ary.length - 1) && ary[i] < val) {
             return i + 1;
         } else if ((i === ary.length - 1) && ary[i] > val) {
-         return 0;
+            return 0;
         }
     } return 0;
 }

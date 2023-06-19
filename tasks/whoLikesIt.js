@@ -13,12 +13,12 @@
 // };
 function likes(names) {
     let result = ``;
-    names.length === 0 ? result = `no one likes this` : 
-    names.length === 1 ? result = `${names[0]} like this` : 
-    names.length === 2 ? result = `${names[0]} and ${names[1]} like this`:
-    names.length === 3 ? result = `${names[0]}, ${names[1]} and ${names[2]} like this` : 
-    names.length >= 4 ? result =  `${names[0]}, ${names[1]} and ${names.length - 2} others like this`:
-    result = `govno`
+    names.length === 0 ? result = `no one likes this` :
+        names.length === 1 ? result = `${names[0]} like this` :
+            names.length === 2 ? result = `${names[0]} and ${names[1]} like this` :
+                names.length === 3 ? result = `${names[0]}, ${names[1]} and ${names[2]} like this` :
+                    names.length >= 4 ? result = `${names[0]}, ${names[1]} and ${names.length - 2} others like this` :
+                        result = `govno`
     return result;
 };
 

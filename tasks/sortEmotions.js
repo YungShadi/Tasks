@@ -14,7 +14,7 @@ function sortEmotions(arr, order) {
       let elementPos = emotions.map(function (x) { return x.id; }).indexOf(j);
       let valueByPos = emotions.at(elementPos + 1);
       if (arr[i] === valueByPos);
-        massive.unshift(arr[i]);
+      massive.unshift(arr[i]);
     }
   } return massive;
 };

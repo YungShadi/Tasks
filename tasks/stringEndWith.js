@@ -10,4 +10,4 @@ let lengthOfLastWord = function(s) {
     let lastLength = lastWord.length;
     return lastLength;
 };
-console.log(lengthOfLastWord(`Bebrochka med sus  `))
+console.log(lengthOfLastWord(`Bebrochka med sus`))

@@ -16,10 +16,10 @@ function count(string) {
     let keys = Array.from(map.keys());
     for (i = 0; i < map.size; i++) {
         let keysIndex = keys[i]
-        let obj = map.get(keys[i]) 
+        let obj = map.get(keys[i])
         let numberValue = Number(Object.assign(obj));
-        Object.assign(result, {[keysIndex]: numberValue });
-        
+        Object.assign(result, { [keysIndex]: numberValue });
+
     }
     return result
 }
