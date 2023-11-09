@@ -12,4 +12,4 @@ var climbStairs = function (n) {
     }
     return !isNaN(result) ? result : 0
 };
-console.log(climbStairs(1));
+console.log(climbStairs(1000));
